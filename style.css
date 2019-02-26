@@ -48,3 +48,58 @@ li{
     position: absolute;
     left: 0;
 }
+
+.quisque{
+    margin-top: 70px;
+    font-size: 40px;
+    font-family: ubuntu;
+    line-height: 20px;
+    margin-left: 40px;
+}
+
+.desc-quisque{
+    font-size: 12px;
+    font-family: ubuntu;
+    margin-left: 40px;
+}
+
+.video{
+    width: 100px;
+    height: 65px;
+    margin-left: 40px;
+}
+
+.desc-video{
+    font-size: 12px;
+    font-family: ubuntu;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.our{
+    text-align: center;
+}
+ .desc-been{
+     text-align: center;
+     color: rgb(61, 61, 61);
+     font-family: ubuntu;
+     font-size: 12px;
+}
+
+.been{
+    width: 100%;
+}
+
+.post-desc-been{
+    font-family: ubuntu;
+    text-align: left;
+    font-size: 10px;
+}
+
+.techo{
+    max-width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(22, 20, 22, 0.95), rgba(34, 33, 34, 0.95))
+    ,url("https://vinsteel.vn/wp-content/uploads/2016/09/gi%C3%A0n-thep.jpg");
+
+}
