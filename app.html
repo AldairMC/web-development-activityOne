@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container{
+            background-image: linear-gradient(rgba(112, 81, 110, 0.8), rgba(73, 48, 71, 0.8)),
+            url("https://www.lambdatres.com/wp-content/uploads/2017/01/oficina-ventilaci%C3%B3n-industrial.jpg");             
+            max-width: 100%;
+            height: 650px;
+            position: relative;
+        }
+
+        .prop{
+            width: 150px;
+            height: 150px;
+            background-color: blueviolet;
+        }
+
+        .superior-izq{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .centro{
+            position: relative;
+            
+        }
+
+        .inferior-der{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .logo{
+            width: 70px;
+            height: 30px;
+            background-color: blue;
+            position: absolute;
+            z-index: 1;
+            top: 30px;
+            left: 15px;
+        }
+
+        .navegacion{
+            position: absolute;
+            right: 100px;
+            top: 30px;
+        }
+
+        .navegacion-lista{
+            display: inline;
+            list-style: none;
+            font-size: 20px;
+            
+        }
+
+        li{
+            display: inline;
+            margin: 30px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+
+        </div>
+        <div class="navegacion">
+            <ul class="navegacion-lista">
+                <li>Docs</li>
+                <li>Menu</li>
+                <a><i></i></a>
+            </ul>
+        </div>
+        <div class="superior-izq prop">
+
+        </div>
+        <div class="centro prop">
+
+        </div>
+        <div class="inferior-der prop">
+
+        </div>
+    </div>
+</body>
+</html>
