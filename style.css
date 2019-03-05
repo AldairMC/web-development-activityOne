@@ -1,7 +1,7 @@
 .fondo{
-    background-image: linear-gradient(rgba(112, 81, 110, 0.8), rgba(73, 48, 71, 0.8)),
+    background-image: linear-gradient(rgba(46, 7, 59, 0.9), rgba(98, 61, 112, 0.9)),
             url("https://www.lambdatres.com/wp-content/uploads/2017/01/oficina-ventilaci%C3%B3n-industrial.jpg");             
-    max-width: 100%;
+    background-size: cover; 
     height: 650px;
     position: relative;
 }
@@ -98,7 +98,7 @@ li{
 }
 
 .techo{
-    max-width: 100%;
+    background-size: cover;
     height: 700px;
     background-image: linear-gradient(rgba(22, 20, 22, 0.95), rgba(34, 33, 34, 0.95))
     ,url("https://vinsteel.vn/wp-content/uploads/2016/09/gi%C3%A0n-thep.jpg");
